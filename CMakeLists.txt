@@ -87,3 +87,5 @@ add_subdirectory(benchmark)
 #                       Examples
 
 add_subdirectory(examples)
+
+install(DIRECTORY ${PAM_INCLUDE_DIR}/pam DESTINATION include)
